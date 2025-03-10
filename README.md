@@ -1,22 +1,12 @@
-# ⚠️ DISCLAIMER  
+## DISCLAIMER
+ The original creator ([Blobby-boi](https://github.com/Blobby-Boi)) and the fork creator ([alanv-tech](https://github.com/alanv-tech)) will not be held responsible for damages. By using this program, you are acknowledging the fact that you are using this product **AT YOUR OWN RISK**
+ 
+ ## About ExtPrint3r
+ ExtPrint3r is an exploit that is the spiritual successor to the [ONC](https://github.com/alanv-tech/KST-ONC) method. This exploit works by creating thousands of web applications called iFrames, which overloads Securly and ultimately crashes it.
+ 
+ > We recommend you to disable the V8 optimizer as it really helps with lag. **This may not work on Chromebooks running an older software version.**
 
-The original creator (**Blobby-boi**) and the fork creator (**alanv-tech**) **will not be held responsible for any damages**.  
-By using this program, you acknowledge that you are using it **AT YOUR OWN RISK**.  
-
----
-
-## 🔹 About ExtPrint3r  
-
-**ExtPrint3r** is an exploit that serves as the **spiritual successor to the ONC method**.  
-It works by generating **thousands of web applications (iFrames)**, which **overload Securly** and ultimately cause it to crash.  
-
-### 🔧 Performance Recommendation  
-To reduce lag, we **highly recommend disabling the V8 optimizer**.  
-However, please note that this exploit **may not work on Chromebooks running older software versions**.  
-
----
-
-## 🌐 Website  
+## Website  
 
 If you arrived here from the website, **[click here](#)**.  
 
