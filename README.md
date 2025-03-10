@@ -1,5 +1,5 @@
 ## DISCLAIMER
-The original creator ([Blobby-boi](https://github.com/Blobby-Boi)) and the fork creator ([alanv-tech](https://github.com/alanv-tech)) will not be held responsible for damages. By using this project, you are acknowledging the fact that you are using this product **AT YOUR OWN RISK**
+The original creator ([Blobby-boi](https://github.com/Blobby-Boi)) and the fork creator ([alanv-tech](https://github.com/alanv-tech)) will not be held responsible for damages. By using this program, you are acknowledging the fact that you are using this product **AT YOUR OWN RISK**
 
 ## About ExtPrint3r
 ExtPrint3r is an exploit that is the spiritual successor to the ONC method. This exploit works by creating thousands of web applications called iFrames, which overloads Securly and ultimately crashes it. 
