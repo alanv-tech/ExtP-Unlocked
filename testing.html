@@ -87,12 +87,12 @@
             document.getElementById('passwordModal').style.display = 'block';
         }
 
-        // Function that checks the password and opens the pages
+        // Function that checks the password and opens the page
         function checkPassword() {
             const userPassword = document.getElementById('passwordInput').value;
 
             if (userPassword === correctPassword) {
-                // Open both URLs in new tabs
+                // Open the correct URL in a new tab
                 window.open('https://extprint3r.github.io/printer.html', '_blank');
               
                 // Hide the modal after successful password input
