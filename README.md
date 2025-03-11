@@ -13,8 +13,6 @@ It works by generating and printing out **thousands of embedded web applications
 > **💡 Tip:** Disabling the **V8 optimizer** can significantly reduce lag.  
 > However, **this feature is not available on Chromebooks running the older version**.  
 
----
-
 ### 🌐 Website  
 
 If you arrived here from GitHub pages website, **[click here](https://github.com/alanv-tech/ExtensionPrinter)**.  
