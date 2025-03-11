@@ -37,7 +37,7 @@ If you need assistance:
 We're here to help! 🚀  
 
 ## 🔐 Security
-You can see the security.md file [here](https://github.com/alanv-tech/ExtensionPrinter/blob/main/SECURITY.md)
+You can see the security.md file [here](https://github.com/alanv-tech/ExtensionPrinter/blob/main/SECURITY.md).
 
 ---
  
