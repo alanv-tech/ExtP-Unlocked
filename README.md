@@ -37,5 +37,7 @@ If you need assistance:
 - Submit an **issue** if you encounter a problem.  
 
 We're here to help! 🚀  
+
 ---
-*bCredit to Blobby Boi for the original idea**
+
+**Credit to Blobby Boi for the original idea**
