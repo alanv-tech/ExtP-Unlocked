@@ -31,6 +31,9 @@ To view the full changelog, **[click here](https://github.com/alanv-tech/Extensi
 
 ---
 
+# 🔐 Security
+You can see the security.md file [here](https://github.com/alanv-tech/ExtensionPrinter/blob/main/SECURITY.md)
+
 # ❓ Need Help?  
 If you need assistance:  
 - Check the **troubleshooting section** in the wiki.  
