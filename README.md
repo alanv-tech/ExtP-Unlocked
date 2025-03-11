@@ -8,7 +8,7 @@ By using this exploit, you acknowledge that you are using it **AT YOUR OWN RISK*
 ## 🔹 About ExtPrint3r  
 
 **ExtPrint3r** is an exploit that serves as the **successor to the ExtHang3r**.  
-It works by generating **thousands of embedded web applications (iFrames)**, which causes the RAM usage to exceed the limit. This ultimately causes Securly to crash.
+It works by generating **thousands of embedded web applications (iFrames)**, which causes the RAM usage to exceed the limit. This ultimately causes Securly to crash. It is similar to the LTMEAT exploit which uses the same method to kill Securly.
 
 > **💡 Tip:** Disabling the **V8 optimizer** can significantly reduce lag.  
 > However, **this feature is not available on Chromebooks running the older version**.  
@@ -37,3 +37,5 @@ If you need assistance:
 - Submit an **issue** if you encounter a problem.  
 
 We're here to help! 🚀  
+
+## Credit to Blobby Boi for the original idea
