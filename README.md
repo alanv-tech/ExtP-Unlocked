@@ -15,11 +15,11 @@ It works by generating and printing out **thousands of embedded web applications
 
 ---
 
-## 🌐 Website  
+### 🌐 Website  
 
 If you arrived here from GitHub pages website, **[click here](https://github.com/alanv-tech/ExtensionPrinter)**.  
 
-### 📜 **Copy This Code** 
+## 📜 **Copy This Code** 
 Copy and paste the following code into your browser’s URL bar. The password is **"blobbyboi"**. It should open up the instructions and the exploit page.
 
 ```
