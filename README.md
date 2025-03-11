@@ -40,4 +40,4 @@ We're here to help! 🚀
 
 ---
  
-**Credit to Blobby Boi for the original code (found in index.html)**
+**Credit to Blobby Boi for the original code and idea**
