@@ -17,7 +17,7 @@ It works by generating **thousands of embedded web applications (iFrames)**, whi
 
 ## 🌐 Website  
 
-If you arrived here from the website, **[click here](https://github.com/alanv-tech/ExtensionPrinter)**.  
+If you arrived here from Github pages website, **[click here](https://github.com/alanv-tech/ExtensionPrinter)**.  
 
 ### 📜 **Copy This Code**  
 Copy and paste the following code into your browser’s URL bar after you read the wiki:
