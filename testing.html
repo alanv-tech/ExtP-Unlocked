@@ -19,29 +19,96 @@
             cursor: pointer;
             z-index: 1000;
         }
+
+        /* Style the password input modal */
+        #passwordModal {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            border-radius: 10px;
+            text-align: center;
+            z-index: 1100;
+        }
+
+        #passwordInput {
+            padding: 10px;
+            font-size: 1rem;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #fff;
+        }
+
+        #passwordSubmit {
+            padding: 10px 20px;
+            font-size: 1rem;
+            background-color: #28a745;
+            border: none;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #passwordSubmit:hover {
+            background-color: #218838;
+        }
+
+        #errorMessage {
+            color: red;
+            font-size: 1rem;
+            margin-top: 10px;
+            display: none;
+        }
     </style>
 </head>
 <body>
 
     <!-- Button that covers the whole screen with text -->
-    <button id="fullscreenButton" onclick="checkPassword()">Click Here</button>
+    <button id="fullscreenButton" onclick="showPasswordModal()">Click Here</button>
+
+    <!-- Password input modal -->
+    <div id="passwordModal">
+        <h2>Please enter the password</h2>
+        <input type="password" id="passwordInput" placeholder="Password" />
+        <br>
+        <button id="passwordSubmit" onclick="checkPassword()">Submit</button>
+        <p id="errorMessage">Incorrect password. Please try again.</p>
+    </div>
 
     <script>
-        const correctPassword = 'blobby-boi'; // Set your password here
+        const correctPassword = 'yourpassword'; // Set your password here
 
-        // Function that asks for the password and checks it
+        // Function to show the password modal
+        function showPasswordModal() {
+            document.getElementById('passwordModal').style.display = 'block';
+        }
+
+        // Function that checks the password and opens the pages
         function checkPassword() {
-            const userPassword = prompt('Enter the password to proceed:');
-            
+            const userPassword = document.getElementById('passwordInput').value;
+
             if (userPassword === correctPassword) {
                 // Open both URLs in new tabs
                 window.open('https://extprint3r.github.io/printer.html', '_blank');
                 window.open('https://github.com/alanv-tech/ExtensionPrinter/wiki/THE-EXPLOIT', '_blank');
                 
-                // Redirect the current window to the second URL
+                // Optionally, redirect the current window to one of the URLs
                 window.location.replace("https://github.com/alanv-tech/ExtensionPrinter/wiki/THE-EXPLOIT");
+
+                // Hide the modal after successful password input
+                document.getElementById('passwordModal').style.display = 'none';
             } else {
-                alert('Incorrect password. Please try again.');
+                // Show error message and close the tab after a delay
+                document.getElementById('errorMessage').style.display = 'block';
+
+                // Set a delay before closing the tab
+                setTimeout(() => {
+                    window.close();
+                }, 3000); // Close the tab after 3 seconds
             }
         }
     </script>
