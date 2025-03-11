@@ -39,5 +39,5 @@ If you need assistance:
 We're here to help! 🚀  
 
 ---
-
-**Credit to Blobby Boi for the original idea**
+ 
+**Credit to Blobby Boi for the original code (found in index.html)**
