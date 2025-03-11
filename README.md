@@ -8,7 +8,7 @@ By using this exploit, you acknowledge that you are using it **AT YOUR OWN RISK*
 # 🔹 About The Exploit
 
 **Extension Printer** is an exploit that serves as the **successor to the Extension Hanger**.
-It works by generating and printing out **thousands of embedded web applications (iFrames)**, which causes the RAM usage for a webpage or extension to exceed the usage limit. This ultimately causes the extension to crash. It is similar to the LTMEAT exploit which uses the same method to kill Securly.
+It works by generating and printing out **thousands of embedded web applications (iFrames)**, which causes the RAM usage for a webpage or extension to exceed the usage limit. This ultimately causes the extension to crash. It is similar to the LTMEAT exploit which uses the same method to kill an extension.
 
 > **💡 Tip:** Disabling the **V8 optimizer** can significantly reduce lag.  
 > However, **this feature is not available on Chromebooks running the older version**.  
