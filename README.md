@@ -1,6 +1,6 @@
 # ⚠️ DISCLAIMER  
 
-The original creator (**[Blobby-boi](https://github.com/Blobby-Boi)**) and the fork creator (**[alanv-tech](https://github.com/alanv-tech)**) **will not be held responsible for any damages**.  
+The creator (**[alanv-tech](https://github.com/alanv-tech)**) **will not be held responsible for any damages**.  
 By using this exploit, you acknowledge that you are using it **AT YOUR OWN RISK**.  
 
 ---
